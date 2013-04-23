@@ -6,7 +6,7 @@
 @implementation WoWApiClient
 
 static dispatch_once_t oncePredicate;
-
+ 
 + (WoWApiClient *)sharedClient
 {
     static WoWApiClient *_sharedClient;
